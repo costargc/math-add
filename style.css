@@ -1,0 +1,88 @@
+
+  body {
+    background-color: white;
+    text-align: center!important;
+    background-image: url("images/back.png"); 
+    background-size: 25%;
+    background-repeat: initial;
+    margin: 0 0 0 0;
+    }
+
+    hr{
+        padding:0;
+        margin: 0;
+    }
+    
+  span{
+    background-color: white;
+}
+
+#random-num{
+    color: blue;
+    font-weight: bold;
+}
+
+#my-count{
+    color: orange;
+    font-weight: bold;
+}
+
+
+  img{
+     margin: 10px;
+  }
+  
+  img:hover{
+    cursor:pointer;
+    opacity: 0.5;
+  }
+
+
+  #signature{
+    font-size: 10px;
+    opacity: 0.7;
+  }
+  #signature:hover{
+    opacity: 0.3;
+    text-decoration: none;
+  }
+    
+
+  /* Scoreboard animation */
+  #title_w{
+    min-width: 100px;
+    background-color: white;
+    /* border-color: red!important; */
+  }
+  #title_w_glow{
+    min-width: 100px;
+    background-color: greenyellow;
+    /* border-color: red!important; */
+  }
+  #win-counter{
+    min-width: 100px;
+    background-color: white;
+    /* border-color: red!important; */
+  }
+  #win-counter_glow{
+    min-width: 100px;
+    background-color: greenyellow;
+    /* border-color: red!important; */
+  }
+  
+  #title_l{
+    min-width: 100px;
+    background-color: white;
+  }
+  #title_l_glow{
+    min-width: 100px;
+    background-color: red;
+  }
+  #loss-counter{
+    min-width: 100px;
+    background-color: white;
+  }
+  #loss-counter_glow{
+    min-width: 100px;
+    background-color: red;
+  }
