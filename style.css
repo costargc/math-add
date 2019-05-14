@@ -6,6 +6,7 @@
     background-size: 25%;
     background-repeat: initial;
     margin: 0 0 0 0;
+    overflow-x: hidden;
     }
 
     hr{
@@ -45,6 +46,17 @@
   #signature:hover{
     opacity: 0.3;
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 550px){
+    body{
+    /* background: lightcyan; */
+    max-width: 376px;
+    text-align: center!important;
+    margin: 0 0 0 0;
+    overflow-x: hidden;
+    justify-content: center;
+  }
   }
     
 
